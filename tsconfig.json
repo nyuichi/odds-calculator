@@ -1,0 +1,12 @@
+{
+  "include": ["./src/**/*.ts", "./src/**/*.vue"],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
+  }
+}

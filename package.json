@@ -1,0 +1,31 @@
+{
+  "name": "headsup-calc",
+  "version": "0.0.1",
+  "description": "Online odds calclator for heads-up Texas hold'em poker",
+  "scripts": {
+    "dev": "vite",
+    "build": "typecheck . && vite build --assetsDir . --base \"\""
+  },
+  "author": "Wataru Inariba <oinari17@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.0.1-compat",
+    "vue": "^3.0.2",
+    "vue-types": "^3.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.0",
+    "@typescript-eslint/parser": "^4.8.0",
+    "@vue/compiler-sfc": "^3.0.2",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vuedx/typecheck": "^0.2.4-0",
+    "@vuedx/typescript-plugin-vue": "^0.2.4-0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.1.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5",
+    "vite": "^1.0.0-rc.9"
+  }
+}
