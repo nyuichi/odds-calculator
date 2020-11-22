@@ -77,6 +77,8 @@
     </div>
 
     <InputBox :is-used="isUsed" @add-card="addCard($event)" />
+
+    <Range class="my-10" />
   </div>
 </template>
 
@@ -84,9 +86,10 @@
 import { defineComponent } from "vue";
 import Card from "./Card.vue";
 import InputBox from "./InputBox.vue";
+import Range from "./Range.vue";
 export default defineComponent({
   name: "Main",
-  components: { Card, InputBox },
+  components: { Card, InputBox, Range },
 
   data: function () {
     let animationIndices: number[] = [];
