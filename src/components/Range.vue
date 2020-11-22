@@ -40,7 +40,8 @@ export default defineComponent({
     for (const i of Array(13).keys()) {
       handNames[i] = Array(13);
       for (const j of Array(13).keys()) {
-        let handName = RANK_NAMES[i] + RANK_NAMES[j];
+        let handName =
+          i < j ? RANK_NAMES[i] + RANK_NAMES[j] : RANK_NAMES[j] + RANK_NAMES[i];
         if (i < j) {
           handName += "s";
         } else if (j < i) {
